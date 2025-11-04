@@ -460,7 +460,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-11-03 12:34:36" itemprop="dateModified" datetime="2025-11-03T12:34:36+00:00">2025-11-03</time>
+      <time title="Modified: 2025-11-03 12:55:20" itemprop="dateModified" datetime="2025-11-03T12:55:20+00:00">2025-11-03</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -513,15 +513,29 @@ follow the guide from openrlhf: https://github.com/OpenRLHF/OpenRLHF?tab=readme-
 
 <h2 id="performance">📊 Model Performance</h2>
 setting: openrlhf/moe_utils/gsm8k.yaml
-| Model | gsm8k |
-| :--- | :--- |
-| FalconH1-base-0.5B  | 0.60 |
-| FalconH1-base-3B | 0.67 |
-| FalconH1-base-MoE-0.5B(2/4) | 0.65 |
-- [ ]  FalconH1-base-MoE-0.5B(2/4) is only trained for 200 steps
+
+<table>
+<thead>
+<tr>
+<th align="left">Model</th>
+<th align="left">GSM8K</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">FalconH1-base-0.5B</td>
+<td align="left">0.60</td>
+</tr>
+<tr>
+<td align="left">FalconH1-base-3B</td>
+<td align="left">0.67</td>
+</tr>
+<tr>
+<td align="left">FalconH1-base-MoE-0.5B(2/4)</td>
+<td align="left">0.65</td>
+</tr>
+</tbody></table>
+<img width="600" height="400" alt="image" src="/images/router.png">
 https://wandb.ai/wmere39-uni/openrlhf_train_ppo/panel/nhe19qxdy?xAxisMin=0   
-<!-- <img width="800" height="500" alt="image" src="router.png" /> -->
-![router](OpenRLHF-PPO-GRPO/router.png)
 
 
 <h2 id="Post-Training">🚧  Post-Training</h2>
